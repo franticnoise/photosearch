@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search our photo collection!</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body
+    class="bg-[url('/img/bg-website-image.jpg')] bg-no-repeat bg-left-bottom mx-auto h-screen"
+  >
+    <!-- FLECHA DE REGRESAR  -->
+    <div class="max-w-sm m-auto">
+      <header>
+        <div class="flex justify-center p-4 pt-10">
+          <img src="img/arrowback.png" />
+        </div>
+      </header>
+
+      <!-- SEARCH RESULTS  -->
+      <div class="">
+        <div class="text-3xl font-bold pb-4">Search</div>
+        <input
+          type="text"
+          id="search"
+          class="border-black border-[2px] text-gray-900 text-sm w-full block p-3"
+          placeholder="Photos..."
+          required
+        />
+        <div id="searchresults">
+          <div>
+            <div class="flex pt-5 uppercase font-bold">All results</div>
+          </div>
+
+          <div>
+            <div class="grid grid-cols-3 gap-4 pt-3">
+              <div><img class="w-40" src="img/images_1.png" /></div>
+              <div><img class="w-40" src="img/images_2.png" /></div>
+              <div><img class="w-40" src="img/images_3.png" /></div>
+              <div><img class="w-40" src="img/images_4.png" /></div>
+              <div><img class="w-40" src="img/images_5.png" /></div>
+              <div><img class="w-40" src="img/images_6.png" /></div>
+              <div><img class="w-40" src="img/images_7.png" /></div>
+              <div><img class="w-40" src="img/images_8.png" /></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="max-h-full h-full ">&nbsp;
+      </div>
+      <!-- FOOTER -->
+      <div class="flex p-8  max-w-xl justify-center">
+        <img class="w-6 h-6 m-1 " src="img/logojgatjens.png" />
+        <div class="text-xs align-middle pl-2 ">
+          ©2020 jgatjens.com.<br />
+          All Rights Reserved. Privacy Policy
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>
