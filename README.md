@@ -10,3 +10,5 @@ npm start
 ```
 npx http-server
 ```
+# or use LiveServer VSX Extension
+https://github.com/ritwickdey/vscode-live-servers
