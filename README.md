@@ -10,5 +10,5 @@ npm start
 ```
 npx http-server
 ```
-# sometimes i use Live Server (Visual Studio Extension)
+# sometimes I use Live Server (Visual Studio Extension)
 https://github.com/ritwickdey/vscode-live-servers
